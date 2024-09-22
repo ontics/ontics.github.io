@@ -1,0 +1,75 @@
+/* Global Styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #E0E0E0; /* Light Gray for background */
+    color: #212121; /* Dark Charcoal for text */
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #008080; /* Medium Teal */
+    padding: 1rem 0; /* Added padding for more space */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Full width */
+}
+
+.navbar-link {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #E0E0E0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar-link:hover {
+    color: #E2725B; /* Terracotta hover */
+}
+
+/* Main Title */
+.masthead-heading {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4rem; /* larger size */
+    color: #212121;
+}
+
+/* Subheadings for clearer hierarchy */
+.masthead-subheading-bold {
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #212121;
+}
+
+.masthead-subheading-normal {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #212121;
+}
+
+/* Bio Section */
+.bio p {
+    font-size: 1rem;
+    margin: 0 2rem; /* Improved spacing */
+}
+
+/* Footer Style */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #646464; /* medium gray */
+    background-color: #F5F5F5; /* very light gray */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .bio p {
+        margin: 0 1rem; /* Adjust margin for smaller screens */
+    }
+}
